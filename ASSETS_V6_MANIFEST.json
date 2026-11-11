@@ -1,0 +1,26 @@
+{
+  "version": "6.0",
+  "product": "CampusLearn",
+  "frontend": "Angular 22 / TypeScript / Lucide / PrimeNG",
+  "backend": "FastAPI",
+  "local_assets": {
+    "svgs": 15,
+    "pastel_png_transparent": 10,
+    "lottie_json": 5,
+    "dotlottie": 5
+  },
+  "externally_cataloged_not_embedded": {
+    "open_doodles_svg": 33,
+    "open_doodles_png": 33,
+    "cc0_3dicons_png": 16
+  },
+  "download_option": "python tools/install_optional_cc0.py --all",
+  "gallery_route": "/illustrations (teacher/admin)",
+  "disclaimer": "Other third-party collections (DrawKit, unDraw, Storyset, ManyPixels, Icons8) are linked but not bundled.",
+  "validation": {
+    "backend_tests": "6/6 passed",
+    "typescript": "syntax checked, not compiled",
+    "angular_browser": "not validated",
+    "png_svg_lottie": "validated"
+  }
+}

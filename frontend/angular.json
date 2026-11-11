@@ -1,0 +1,77 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "campuslearn": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:application",
+          "options": {
+            "outputPath": "dist/campuslearn",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              },
+              {
+                "glob": "dotlottie-player.wasm",
+                "input": "node_modules/@lottiefiles/dotlottie-web/dist",
+                "output": "/assets/lottie/engine/"
+              }
+            ],
+            "styles": [
+              "src/styles.css",
+              "src/design-refresh.css",
+              "src/editorial-theme.css",
+              "src/university-reference.css",
+              "src/university-all-screens.css",
+              "src/campus-lottie.css",
+              "src/campus-3d-pastel.css",
+              "src/campus-asset-packs.css",
+              "src/campus-student-life.css",
+              "src/campus-youtube.css"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "1mb",
+                  "maximumError": "3mb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular/build:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "campuslearn:build:production"
+            },
+            "development": {
+              "buildTarget": "campuslearn:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        }
+      }
+    }
+  }
+}

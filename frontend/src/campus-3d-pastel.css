@@ -1,0 +1,5 @@
+/* Small pastel 3D accents alongside existing Lottie and SVG assets */
+.role-hero > img.campus-3d-hero {width:clamp(125px,20vw,190px);height:185px;max-height:185px;object-fit:contain;filter:none;transform:none;border-radius:0;flex-shrink:0}
+.editorial-feature-media img.campus-3d-hero {width:min(90%,220px);height:auto;max-height:200px;object-fit:contain;border-radius:0}
+.campus-empty-3d {display:block;width:112px;height:112px;object-fit:contain;margin:0 auto 7px}
+@media(max-width:700px){.role-hero > img.campus-3d-hero {position:absolute;right:-30px;bottom:-10px;width:140px;height:140px;max-height:140px;opacity:.25;pointer-events:none}.editorial-feature-media img.campus-3d-hero{max-height:125px;width:130px}.campus-empty-3d{width:90px;height:90px}}

@@ -1,0 +1,114 @@
+- generic [ref=e68]:
+  - link "Aller au contenu" [ref=e69] [cursor=pointer]:
+    - /url: "#contenu"
+  - generic [ref=e70]:
+    - complementary "Navigation principale" [ref=e71]:
+      - link "campuslearn PLATEFORME UNIVERSITAIRE" [ref=e72] [cursor=pointer]:
+        - /url: /accueil
+        - generic [ref=e79]:
+          - text: campuslearn
+          - generic [ref=e80]: PLATEFORME UNIVERSITAIRE
+      - generic [ref=e83]:
+        - strong [ref=e84]: Mon coin d’étude
+        - generic [ref=e85]: Tout au même endroit
+      - generic [ref=e89]: ESPACE PERSONNEL
+      - navigation [ref=e90]:
+        - link "Tableau de bord" [ref=e91] [cursor=pointer]:
+          - /url: /accueil
+        - link "Explorer les cours" [ref=e97] [cursor=pointer]:
+          - /url: /cours
+        - link "Mes cours" [ref=e103] [cursor=pointer]:
+          - /url: /mes-cours
+        - link "Notifications" [ref=e108] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=e114]:
+        - generic [ref=e115]: UN PETIT RAPPEL
+        - paragraph [ref=e116]: Une leçon à la fois. Tu avances à ton rythme.
+        - link "Retrouver mes cours" [ref=e117] [cursor=pointer]:
+          - /url: /mes-cours
+      - generic [ref=e123]:
+        - generic [ref=e124]: AM
+        - generic [ref=e125]:
+          - generic [ref=e126]: Alex Mwamba
+          - generic [ref=e127]: Étudiant
+        - button "Se déconnecter" [ref=e128] [cursor=pointer]
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - generic [ref=e137]: CampusLearn
+          - strong [ref=e141]: Détails du cours
+        - generic [ref=e142]:
+          - search [ref=e143]:
+            - textbox "Rechercher des cours" [ref=e148]:
+              - /placeholder: Rechercher un cours...
+            - generic [ref=e149]: Entrée
+          - link "Ouvrir les notifications" [ref=e150] [cursor=pointer]:
+            - /url: /notifications
+          - generic [ref=e156]:
+            - generic [ref=e157]: AM
+            - generic [ref=e407]:
+              - strong [ref=e408]: Alex Mwamba
+              - generic [ref=e409]: Étudiant
+      - main [ref=e158]:
+        - generic [ref=e411]:
+          - link "Retour aux cours" [ref=e412] [cursor=pointer]:
+            - /url: /cours
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - generic [ref=e419]: Informatique
+              - generic [ref=e420]: Intermédiaire
+            - heading "Bases de données relationnelles" [level=1] [ref=e421]
+            - paragraph [ref=e422]: Modélisez vos données, écrivez vos premières requêtes SQL et concevez des schémas relationnels.
+            - generic [ref=e423]:
+              - generic [ref=e424]: Marie Kabeya
+              - generic [ref=e429]: 14 h
+              - generic [ref=e434]: 3 leçons
+              - generic [ref=e437]: 1 inscrits
+          - generic [ref=e445]:
+            - generic [ref=e446]:
+              - strong [ref=e447]: Ton chemin parcouru
+              - paragraph [ref=e448]: Chaque leçon terminée compte.
+            - generic [ref=e449]:
+              - generic [ref=e450]: 0 %
+              - progressbar [ref=e451]
+          - tablist "Rubriques du cours" [ref=e452]:
+            - button "Leçons 3" [ref=e453] [cursor=pointer]:
+              - text: Leçons
+              - generic [ref=e457]: "3"
+            - button "Quiz 1" [ref=e458] [cursor=pointer]:
+              - text: Quiz
+              - generic [ref=e463]: "1"
+            - button "Devoirs 1" [ref=e464] [cursor=pointer]:
+              - text: Devoirs
+              - generic [ref=e470]: "1"
+            - button "Discussions" [ref=e471] [cursor=pointer]
+            - button "Annonces" [ref=e476] [cursor=pointer]
+          - generic [ref=e481]:
+            - generic [ref=e482]:
+              - generic [ref=e483]:
+                - heading "Programme du cours" [level=3] [ref=e484]
+                - generic [ref=e485]: 3 leçons
+              - button "1 Bienvenue et objectifs du cours Leçon 1" [ref=e486] [cursor=pointer]:
+                - generic [ref=e487]: "1"
+                - generic [ref=e489]:
+                  - text: Bienvenue et objectifs du cours
+                  - generic [ref=e490]: Leçon 1
+              - button "2 Concepts fondamentaux Leçon 2" [ref=e491] [cursor=pointer]:
+                - generic [ref=e492]: "2"
+                - generic [ref=e494]:
+                  - text: Concepts fondamentaux
+                  - generic [ref=e495]: Leçon 2
+              - button "3 Mise en pratique Leçon 3" [ref=e496] [cursor=pointer]:
+                - generic [ref=e497]: "3"
+                - generic [ref=e499]:
+                  - text: Mise en pratique
+                  - generic [ref=e500]: Leçon 3
+            - generic [ref=e501]:
+              - generic [ref=e503]:
+                - generic [ref=e504]: LEÇON 1
+                - heading "Bienvenue et objectifs du cours" [level=2] [ref=e505]
+              - generic [ref=e506]: Bienvenue dans le cours « Bases de données relationnelles ». À la fin de ce parcours, vous aurez compris les concepts fondamentaux et pourrez les appliquer à des exercices concrets.
+              - button "Marquer comme terminé" [ref=e507] [cursor=pointer]
+      - generic [ref=e404]:
+        - generic [ref=e405]: © 2026 CampusLearn
+        - generic [ref=e406]: Un espace pour apprendre, partager et progresser.

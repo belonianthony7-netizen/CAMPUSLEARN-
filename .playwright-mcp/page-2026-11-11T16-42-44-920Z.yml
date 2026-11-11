@@ -1,0 +1,35 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: campuslearn
+    - generic [ref=e11]:
+      - generic [ref=e12]: BIENVENUE SUR TON CAMPUS
+      - heading [level=1] [ref=e16]:
+        - text: Un endroit pour apprendre.
+        - emphasis [ref=e17]: À ton rythme.
+      - paragraph [ref=e18]: Une leçon après l’autre, retrouve tes cours, échange avec les enseignants et suis tes progrès.
+      - generic [ref=e19]: Des parcours d'apprentissage structurés
+      - generic [ref=e24]: Un suivi de progression personnalisé
+      - generic [ref=e29]: Des échanges directs avec vos enseignants
+    - generic [ref=e34]: CampusLearn · Projet universitaire
+  - generic [ref=e36]:
+    - text: ACCÈS À VOTRE ESPACE
+    - heading "Content de te revoir !" [level=2] [ref=e37]
+    - paragraph [ref=e38]: Connecte-toi pour retrouver tes cours, là où tu les as laissés.
+    - generic [ref=e39]:
+      - generic [ref=e40]: Adresse e-mail
+      - textbox "Adresse e-mail" [ref=e46]:
+        - /placeholder: exemple@universite.ac.cd
+        - text: enseignant@campuslearn.test
+      - generic [ref=e47]: Mot de passe
+      - generic [ref=e48]:
+        - textbox "Mot de passe" [ref=e54]:
+          - /placeholder: Au moins 8 caractères
+          - text: Enseignant2026!
+        - button "Afficher le mot de passe" [ref=e55] [cursor=pointer]
+      - button "Se connecter" [ref=e60] [cursor=pointer]
+    - generic [ref=e64]: CampusLearn · Espace pédagogique
+    - paragraph [ref=e65]:
+      - text: Pas encore de compte ?
+      - link "Créer un compte" [ref=e66] [cursor=pointer]:
+        - /url: /inscription
+    - paragraph [ref=e67]: Accès de démonstration à une plateforme universitaire.

@@ -1,0 +1,229 @@
+/* CampusLearn V7 — Campus vivant.
+   A student-first, warmer design language without replacing application features.
+   Kept last in angular.json so existing components remain reusable. */
+:root {
+  --student-ink:#302c3f;
+  --student-text:#403c4f;
+  --student-muted:#777181;
+  --student-stroke:#ebe5e8;
+  --student-background:#fffdfa;
+  --student-white:#fff;
+  --student-plum:#5f508b;
+  --student-mint:#e0f5ea;
+  --student-peach:#ffe8df;
+  --student-lilac:#efebff;
+  --student-butter:#fff2cf;
+  --student-blue:#e8f2ff;
+  --student-shadow:0 6px 22px rgba(53,43,70,.055);
+  --ink:var(--student-ink);--ink-strong:#252233;--muted:var(--student-muted);
+  --border:var(--student-stroke);--line:var(--student-stroke);--purple:#7760ae;
+  --purple-dark:#59488d;--card:#fff;--bg:var(--student-background);
+  --accent:#7760ae;--accent-soft:var(--student-lilac);--focus:#6c56ae;
+  --paper:var(--student-background);--surface:#fff;
+}
+html,body{color:var(--student-ink);background:var(--student-background);font-family:'DM Sans',system-ui,sans-serif;font-size:15px}
+.app-shell,.app-main{background:var(--student-background)}
+.app-shell{min-height:100vh}
+.course-progress{display:block;width:100%;height:6px;appearance:none;border:0;border-radius:999px;overflow:hidden;background:var(--border);color:var(--purple)}
+.progress-track .course-progress{height:9px}
+.course-progress::-webkit-progress-bar{background:var(--border);border-radius:999px}
+.course-progress::-webkit-progress-value{background:var(--purple);border-radius:999px}
+.course-progress::-moz-progress-bar{background:var(--purple);border-radius:999px}
+.sidebar{width:232px;background:#faf7fa;border-right:1px solid #f0eaf0;padding:22px 14px 17px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#e5deeb transparent}
+.brand{font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;letter-spacing:-1.1px;margin-bottom:26px;color:#302c41}
+.brand-symbol{background:#7665a8;color:white;border-radius:12px;transform:rotate(-5deg);width:36px;height:36px;box-shadow:0 5px 12px #7665a833}
+.brand-accent{color:#8a6bb3}.brand small{letter-spacing:.06em;color:#aaa2af;font-size:8px;margin-top:3px}
+.sidebar-workspace{background:#fff;border:1px solid #ece4ed;padding:12px;border-radius:12px;margin-bottom:28px;box-shadow:0 3px 12px #302c4110}
+.sidebar-workspace strong{font-size:12px;color:#3a3450}.sidebar-workspace small{font-size:10px;color:#8f889a}
+.workspace-indicator{background:#85c8a8;box-shadow:0 0 0 4px #e0f5ea}
+.nav-caption{font-size:10px;letter-spacing:.1em;color:#9d93a4;font-weight:800}
+.nav-links{gap:5px}.nav-links a{min-height:43px;border-radius:10px;color:#6c6576;font-size:13px;font-weight:650;gap:11px;padding:0 12px}
+.nav-links a app-icon{font-size:17px}.nav-links a:hover{background:#f0ebf7;color:#413557}
+.nav-links a.active,.nav-links a.active:hover{background:#343044;color:#fff;box-shadow:0 4px 9px #322b441c}
+.nav-links a.active app-icon{color:#d3c6ff}
+.nav-section{margin-top:27px}
+.sidebar-companion{position:relative;margin:28px 2px 10px;padding:16px 15px 15px;background:#eaf3e7;border:1px solid #e0eadb;border-radius:16px;overflow:hidden}
+.sidebar-companion img{position:absolute;width:80px;height:80px;object-fit:contain;right:-8px;top:-14px;pointer-events:none;transform:rotate(5deg)}
+.companion-overline{display:block;position:relative;font-size:9px;letter-spacing:1.1px;color:#6c8c69;font-weight:800;margin:0 51px 9px 0}
+.sidebar-companion p{position:relative;z-index:1;max-width:162px;font-size:12px;line-height:1.55;font-weight:700;color:#3b5943;margin:0 0 14px}
+.sidebar-companion a{position:relative;display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:800;color:#476d53;text-decoration:underline;text-underline-offset:4px}
+.sidebar-bottom{margin-top:auto}.nav-user{border-top:1px solid #ede5ed;padding-top:16px}
+.nav-user .avatar,.top-avatar{width:35px;height:35px;background:#e6ddfa;color:#5f468e;border-radius:12px;font-weight:800}
+.user-details b,.top-profile-text strong{color:#343047;font-size:12px}.user-details small,.top-profile-text small{font-size:10px}
+.topbar{background:#fff;border-bottom:1px solid #f1eaf0;height:72px;padding:0 clamp(18px,3vw,48px)}
+.top-search{background:#faf8fb;border:1px solid #ece8f0;border-radius:11px;height:43px;width:min(288px,30vw)}
+.top-search input::placeholder{color:#9b94a4}.top-notice{border-color:#ece7ed;border-radius:10px}
+.top-profile{gap:10px}.topbar-divider{background:#eee7ed}
+.content{background:var(--student-background);padding:28px clamp(18px,3vw,48px) 70px;max-width:1640px}
+.footer{background:var(--student-background);border-top:1px solid #f0ebed;color:#948c98;font-size:11px}
+.page-stack{gap:23px}.page-intro{margin-bottom:1px;gap:20px}.page-intro h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(24px,2.45vw,32px);font-weight:800;letter-spacing:-.9px;color:#302c42;line-height:1.25}
+.page-intro p,.section-head p{font-size:13px;color:#817889;line-height:1.55;max-width:64ch}
+.eyebrow{font-size:10px;letter-spacing:.1em;color:#9b74a3;font-weight:800}
+.btn{min-height:41px;padding:9px 15px;border-radius:10px;font-size:13px;font-weight:700;transition:background .18s,transform .18s}
+.btn-primary{background:#38334d;border-color:#38334d;color:#fff}.btn-primary:hover{background:#54486c;transform:translateY(-1px)}
+.btn-soft{background:#f1ebfa;color:#68518e;border-color:#f1ebfa}.btn-soft:hover{background:#eae0f7}
+.subtle-link,.back-link,.text-btn{color:#785da3;font-size:12px;font-weight:750}
+.panel,.catalogue-toolbar,.overview-mini-card,.notification-summary,.course-tabs{background:#fff;border:1px solid var(--student-stroke);border-radius:16px;box-shadow:var(--student-shadow)}
+.panel{padding:23px}.panel-title{gap:16px}.panel-title h2,.section-head h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:19px;letter-spacing:-.5px;font-weight:800;color:#353044}
+.panel-title p{font-size:13px;color:#8b8292}.panel-title h3{font-size:16px}
+/* A friendly header: real routes and local images, no invented events or metrics. */
+.student-welcome{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(178px,34%);align-items:center;padding:27px 30px 25px;border-radius:21px;background:#f1ebff;border:1px solid #e8ddfa;min-height:238px;overflow:hidden;isolation:isolate}
+.student-welcome:before{content:'';position:absolute;right:-55px;top:-130px;width:345px;height:345px;border-radius:50%;background:#e5d9fa;opacity:.66;z-index:-1}
+.student-welcome:after{content:'';position:absolute;left:56%;bottom:18px;width:65px;height:65px;border-radius:20px;background:#ffe9c8;transform:rotate(14deg);opacity:.5;z-index:-1}
+.welcome-copy{position:relative;z-index:2;max-width:610px}
+.welcome-kicker{display:inline-flex;align-items:center;gap:8px;font-size:10px;font-weight:850;letter-spacing:.115em;color:#7a6799;margin:0 0 11px}
+.welcome-kicker-dot{width:8px;height:8px;border-radius:50%;background:#8dba9d;box-shadow:0 0 0 4px #e0f3e6}
+.student-welcome h1{font-size:clamp(24px,3vw,36px);letter-spacing:-1.15px;margin:0 0 11px;line-height:1.25;color:#342c49}
+.welcome-firstname{color:#7857a7}.welcome-wave{display:inline-block;font-size:.75em;vertical-align:5%}
+.student-welcome p{max-width:455px;color:#736882;font-size:13px;line-height:1.65;margin:0}
+.welcome-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:19px}
+.welcome-primary,.welcome-secondary{display:inline-flex;align-items:center;gap:9px;min-height:40px;border-radius:10px;font-size:12px;font-weight:800;transition:transform .18s,background .18s}
+.welcome-primary{background:#373047;color:#fff;padding:10px 14px}.welcome-primary app-icon:last-child{font-size:14px;opacity:.8}
+.welcome-primary:hover{background:#594878;transform:translateY(-1px)}
+.welcome-secondary{color:#665182;padding:8px 4px}.welcome-secondary:hover{text-decoration:underline;text-underline-offset:4px}
+.welcome-visual{position:relative;align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:172px}
+.welcome-visual>img{height:226px;max-height:100%;width:auto;max-width:98%;object-fit:contain;position:relative;filter:drop-shadow(0 10px 12px #8d73b322)}
+.welcome-date{position:absolute;right:1px;top:1px;display:flex;align-items:center;gap:7px;background:#fffcffbd;border:1px solid #ffffff9c;border-radius:9px;padding:7px 10px;font-size:11px;font-weight:750;color:#6e6180;text-transform:capitalize;z-index:3}
+.welcome-mini-sticker{position:absolute;left:0;bottom:4px;display:inline-flex;gap:6px;align-items:center;padding:8px 11px;border-radius:10px;background:#fff;color:#665478;box-shadow:0 4px 12px #5b42701c;font-size:10px;font-weight:800;transform:rotate(-3deg);z-index:3}
+.welcome-mini-sticker app-icon{color:#eb9a9e}
+/* Dashboard: useful momentum and approachable hierarchy. */
+.university-dashboard-layout{grid-template-columns:minmax(0,1fr) minmax(230px,268px);gap:21px}
+.university-dashboard-main{gap:24px}.university-right-rail{gap:16px}
+.editorial-feature{min-height:202px;background:#343047;border-radius:17px;grid-template-columns:minmax(0,1fr) minmax(120px,29%);box-shadow:none;overflow:hidden}
+.editorial-feature-copy{padding:24px 24px 22px}.feature-label{font-size:10px;font-weight:800;letter-spacing:.12em;color:#e7c994}
+.editorial-feature h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(17px,1.7vw,23px);line-height:1.35;color:white;letter-spacing:-.6px;max-width:36ch}
+.editorial-feature p{font-size:12px;color:#d6d0e0;line-height:1.55;margin-bottom:13px}
+.feature-progress{font-size:11px;color:#e6e0ef}.feature-track{height:7px;background:#57516c;border-radius:20px;overflow:hidden}.feature-track span{background:#a3debd;border-radius:20px}
+.feature-action{min-height:35px;background:#dff5e7;color:#284739;font-size:11px;font-weight:800;border-radius:9px;padding:9px 12px}
+.editorial-feature-media{background:#443c59;padding:16px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.editorial-feature-media img{max-height:158px;width:100%;object-fit:contain;border-radius:8px}
+.editorial-feature-media .campus-3d-hero{max-height:176px}
+.editorial-section-head{margin:0}.editorial-section-head h2{font-size:19px;font-family:'Plus Jakarta Sans',sans-serif;letter-spacing:-.55px;color:#332e42}
+.editorial-section-head p{font-size:12px;margin-top:6px;color:#877e8c}
+.editorial-stats{gap:12px}.editorial-stats .stat-card{min-height:116px;padding:16px 13px 15px;border:1px solid #ede7e9;border-radius:14px;background:#fff;box-shadow:none;display:flex;flex-direction:column;gap:9px}
+.editorial-stats .stat-card:nth-child(4n+1){background:#fff4e8}.editorial-stats .stat-card:nth-child(4n+2){background:#e8f6ed}.editorial-stats .stat-card:nth-child(4n+3){background:#f0edff}.editorial-stats .stat-card:nth-child(4n+4){background:#fff1ee}
+.editorial-stats .stat-card .stat-icon{width:33px;height:33px;border-radius:10px;background:#ffffffa8;color:#7a5eaa;font-size:16px}
+.editorial-stats .stat-card div{display:flex;flex-direction:column;gap:3px}.editorial-stats .stat-card small{font-size:11px;color:#777081;font-weight:700}
+.editorial-stats .stat-card strong{font-size:24px;font-family:'Plus Jakarta Sans',sans-serif;color:#302b3d;letter-spacing:-.5px}.editorial-stats .stat-card div span{font-size:10px;color:#827a87}
+.university-rail-card{border:1px solid #ece7e8;border-radius:16px;padding:17px;background:white;box-shadow:var(--student-shadow)}
+.university-rail-heading h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:13px;color:#302b42}.university-rail-heading>a{font-size:11px;color:#795da0;font-weight:800}
+.university-rail-link{padding:12px 0;border-color:#f0ebef}.university-rail-link strong,.university-recent-course strong{font-size:12px;color:#3d354c}.university-rail-link small,.university-recent-course small{font-size:10px;line-height:1.5;color:#898293}
+.rail-icon{width:37px;height:37px;border-radius:11px;font-size:17px}.rail-icon.mint{background:#e0f5ea;color:#4d9a7b}.rail-icon.peach{background:#ffeae3;color:#bf8069}.rail-icon.blue{background:#ebf1ff;color:#7787bd}
+.university-recent-course img{width:57px;height:50px;border-radius:9px}.university-recent-course{gap:11px;padding:12px 0}
+.university-rail-note{position:relative;min-height:142px;background:#fff0dc;border-radius:16px;padding:17px;overflow:hidden;color:#695346;border:1px solid #f9e5ce}
+.university-rail-note strong{display:block;max-width:172px;font-size:13px;line-height:1.4;color:#624a3a;font-weight:800}
+.university-rail-note p{max-width:167px;font-size:11px;line-height:1.5;color:#8b6c5a}.university-rail-note app-icon{color:#d99d6c}
+.university-rail-note .rail-pastel-accent{position:absolute;right:-3px;bottom:-10px;width:104px;height:104px;opacity:.9}
+/* Course browsing and cards: content first, with illustrated warmth. */
+.campus-catalog-intro{border:1px solid #f4decf;border-radius:17px;background:#fff2e6;min-height:137px;padding:22px 28px}
+.campus-catalog-intro strong{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;color:#624837;font-size:20px;letter-spacing:-.65px}
+.campus-catalog-intro p{font-size:13px;max-width:65ch;color:#826956}
+.campus-catalog-intro img{max-width:132px;max-height:135px}
+.catalogue-toolbar{padding:22px;border:1px solid #ece6e7;border-radius:16px}
+.catalogue-topline h2{font-size:18px;font-family:'Plus Jakarta Sans',sans-serif;color:#383044}
+.catalogue-topline p{font-size:12px}.results-count{background:#e9f6ec;color:#47745b;border-radius:9px;padding:8px 12px;font-size:12px}
+.search-field{background:#faf8fa;border:1px solid #eae5e9;border-radius:11px;height:44px}.search-field input{font-size:13px}
+.category-pills{gap:8px}.category-pills button{border-radius:10px;background:#f9f6fa;color:#70667a;border:1px solid #eee8f0;font-size:12px;font-weight:700;min-height:37px}
+.category-pills button.selected{background:#3a334b;color:white;border-color:#3a334b}
+.course-grid{grid-template-columns:repeat(auto-fill,minmax(218px,1fr));gap:16px}
+.dashboard-course-section .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.course-card{border-radius:17px;border:1px solid #ece5e8;background:#fff;box-shadow:0 4px 14px #55475f0b;transition:transform .18s,border-color .18s,box-shadow .18s;overflow:hidden}
+.course-card:hover{transform:translateY(-3px);border-color:#cfc2df;box-shadow:0 12px 28px #51425a16}
+.course-cover{height:157px;min-height:157px;background:#ecf7f1}
+.course-level{font-size:10px;font-weight:750;border:1px solid #ece5ec;top:12px;left:12px;border-radius:8px;padding:6px 9px}
+.course-body{padding:16px 17px 17px;gap:9px}.course-body h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:14px;font-weight:800;line-height:1.4;letter-spacing:-.25px;min-height:0;color:#383044}
+.course-body .eyebrow{color:#8c7798;font-size:10px;letter-spacing:.03em;margin:0}.course-body .author{font-size:11px;color:#837a8b;margin:0}
+.course-meta{padding-top:11px;font-size:11px;border-top:1px solid #f0e9ed;color:#817887}.course-meta span{font-size:11px}
+.enrolled-tag{color:#457c60;background:#e8f7ec;border-radius:8px;font-size:10px}
+.course-link{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;font-weight:800;color:#72579b;margin-top:auto;padding-top:9px}
+.course-link app-icon{font-size:15px}.progress-heading{font-size:11px}.progress-heading strong{color:#6d5299}
+/* Lesson screens and study tools: calmer, readable and human. */
+.course-detail-hero{border-radius:17px!important;background:#343046!important;min-height:230px;padding:28px 32px}
+.course-detail-hero h1{font-family:'Plus Jakarta Sans',sans-serif;line-height:1.3;font-size:clamp(23px,2.7vw,33px);max-width:34ch}
+.course-detail-hero p{font-size:13px;opacity:.9;line-height:1.65}.detail-badges span{font-size:11px;border-radius:8px}
+.course-tabs{border-radius:13px;gap:6px;overflow-x:auto}.course-tabs button{font-size:12px;min-height:40px;font-weight:700;white-space:nowrap}
+.course-tabs button.selected{background:#eee9f9;color:#68528f}
+.progress-panel{background:#f2f9f1;border:1px solid #e3eddf;border-radius:14px;padding:18px 22px}
+.progress-panel strong{font-size:14px;color:#456047}.progress-panel p{font-size:12px;color:#728772}.lesson-row.current{background:#f0ebf9;color:#6b568f}
+.lesson-content{background:#fff;border-radius:16px}.lesson-text{font-size:14px;line-height:1.75;color:#4c4353}
+.enroll-banner{background:#eaf6ef;border:1px solid #dcece3;border-radius:15px;padding:20px}
+.enroll-banner h3{font-size:17px;color:#345c45}.enroll-banner p{color:#617c69;font-size:12px}
+.answer-option{border-radius:11px;padding:14px;min-height:47px;font-size:13px}
+.answer-option:focus-within{border-color:#9e86c2;box-shadow:0 0 0 3px #e9e1f5}
+.question-block{background:#fbf9fd;border-radius:13px}.form-grid label{font-size:12px;color:#50475c}
+.form-grid input,.form-grid textarea,.form-grid select,.question-block input,.discussion-form textarea,.filters-bar input{border:1px solid #e8e1e9;border-radius:10px;font-size:13px;min-height:43px}
+.form-grid input:focus,.form-grid textarea:focus,.form-grid select:focus{border-color:#9274bc;box-shadow:0 0 0 3px #f0e8f8}
+.artwork-family-bar button{border-radius:9px;font-size:12px}.artwork-family-bar button.active{background:#423852;border-color:#423852}
+.artwork-choice{border-radius:12px}.artwork-choice.selected{border-color:#a284be;box-shadow:0 0 0 2px #eadcf7}
+/* Teacher and admin have the same language, but retain professional density. */
+.role-hero{background:#eaf6ef!important;border:1px solid #e1eee3;border-radius:18px;padding:23px 30px;min-height:178px}
+.role-hero h2{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;color:#385a46;font-size:23px}
+.role-hero p{color:#6d8774;font-size:13px}.role-hero .hero-kicker{color:#689077}
+.admin-hero{background:#eeeafd!important;border-color:#e7e2fa}.admin-hero h2{color:#514276}.admin-hero p{color:#81739a}
+.overview-mini-grid{gap:13px}.overview-mini-card{border-radius:13px;min-height:96px;padding:16px;box-shadow:none}
+.overview-mini-card:nth-child(3n+1){background:#f2edff}.overview-mini-card:nth-child(3n+2){background:#e8f5ec}.overview-mini-card:nth-child(3n){background:#fff0e5}
+.overview-mini-card strong{font-family:'Plus Jakarta Sans',sans-serif;font-size:23px;letter-spacing:-.6px}.overview-mini-card small{font-size:12px;color:#756d82}
+.teacher-course-item{border-radius:16px;overflow:hidden}.teacher-course-status{font-size:12px}
+.admin-info{background:#f1ecfc;border:1px solid #e8e0f6;border-radius:14px;padding:16px;color:#665680}
+.admin-info p{font-size:12px;color:#796d88}
+.data-table{font-size:12px}.data-table thead th{background:#faf7fa;color:#7d7384;font-size:11px}.data-table td{border-color:#f1ebee;padding:15px 13px}
+.data-table tbody tr:hover{background:#fdfafd}
+.notification-summary{background:#fff3e9;border:1px solid #f4e2d2;color:#7a5f4e;border-radius:14px;padding:18px}
+.notification-summary p{color:#9a7660;font-size:12px}.notification-panel{border-radius:16px;padding:12px 20px}
+.notification-item{padding:17px;border-radius:12px}.notification-item h3{font-size:14px}.notification-item p{font-size:12px;line-height:1.65}
+.notification-item.unread{background:#f4efff;border-color:#e6ddf9}
+.empty-state{background:#fff;border:1px dashed #e5deea;border-radius:16px;padding:28px 22px;text-align:center}
+.empty-state h3{font-family:'Plus Jakarta Sans',sans-serif;color:#3b344b;font-size:17px}.empty-state p{font-size:13px;color:#837989}
+.loading-state{background:#fbf8ff;border-radius:14px;color:#817490;font-size:13px}
+/* Asset gallery remains a teacher resource, but now follows the same colors. */
+.asset-overview>div{border-color:#ece4e9;border-radius:14px;box-shadow:none}
+.asset-overview>div:nth-child(4n+1){background:#f0edff}.asset-overview>div:nth-child(4n+2){background:#eaf5ee}.asset-overview>div:nth-child(4n+3){background:#fff1e6}.asset-overview>div:nth-child(4n){background:#f0f5ff}
+.asset-grid{gap:15px}.asset-tile{border-color:#ece5eb;border-radius:14px}.asset-tile-image{background:#f8f5fb}.asset-tile-3d .asset-tile-image{background:#fff7f0}
+.asset-caption strong{font-size:12px;color:#42394e}.asset-caption span{font-size:11px;color:#81788a}
+.asset-notice{background:#faf7f8;color:#7e7282;border-radius:12px;font-size:12px}
+/* Student-facing auth page: warm and welcoming, not startup-corporate. */
+.auth-aside{background:#eae5f8;color:#403654;padding:46px 54px;isolation:isolate}
+.auth-aside:before{right:-80px;bottom:-165px;width:410px;height:410px;border:30px solid #dcd4f2;box-shadow:none;opacity:.55}
+.auth-hero-logo{color:#423255}.auth-hero-logo span{color:#8567b3}
+.auth-hero-copy{max-width:570px}.auth-pill{background:#fff9;border:1px solid #ddd2f1;color:#765a98;font-size:10px;border-radius:10px;padding:9px 12px}
+.auth-hero-copy h1{font-family:'Plus Jakarta Sans',sans-serif;color:#382e4b;font-size:clamp(30px,3.4vw,48px);letter-spacing:-1.4px;line-height:1.19;margin:25px 0 15px}
+.auth-hero-copy h1 em{color:#8c67b1}.auth-hero-copy>p{color:#766688;font-size:14px;line-height:1.8}
+.auth-feature{color:#605772;font-size:13px}.auth-feature app-icon{color:#579a76}
+.auth-hero-footer{color:#867798}.campus-auth-3d{position:relative;right:auto;bottom:auto;align-self:flex-end;margin-top:-10px;width:175px;height:175px;opacity:1;z-index:1}
+.auth-form-panel{background:#fffdfa}.auth-form-wrap h2{font-family:'Plus Jakarta Sans',sans-serif;color:#322a41;font-size:30px;letter-spacing:-.7px}
+.auth-form-wrap .intro{font-size:13px;color:#837887}.small-tag{color:#8a70a8;font-size:10px}
+.field-wrap{background:#fff;border:1px solid #ebe4eb;border-radius:11px;height:50px}
+.field-wrap:focus-within{border-color:#9477b9;box-shadow:0 0 0 3px #eee7f7}
+.auth-submit{background:#393047;font-size:13px}.auth-switch a{color:#76599c}.auth-policy{color:#9b919e}
+/* Focus and motion: predictable feedback with accessible contrast. */
+:where(a,button,input,select,textarea):focus-visible{outline:3px solid #a185cf;outline-offset:3px}
+@media(hover:hover){.university-rail-link:hover,.university-recent-course:hover{background:#faf8fd}}
+@media(max-width:1280px){.student-welcome{padding:25px}.university-dashboard-layout{grid-template-columns:minmax(0,1fr) 246px;gap:16px}.editorial-stats .stat-card{min-width:0}}
+@media(max-width:1100px){.sidebar{width:215px}.student-welcome{grid-template-columns:minmax(0,1fr) 190px}.university-dashboard-layout{grid-template-columns:minmax(0,1fr) 230px}.editorial-feature{grid-template-columns:minmax(0,1fr) 120px}.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.content{padding:24px 21px 55px}}
+@media(max-width:900px){.sidebar{width:246px;z-index:22;box-shadow:0 12px 30px #322b441b}.sidebar-companion{margin-top:24px}.university-dashboard-layout{grid-template-columns:1fr}.university-right-rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.university-rail-note{grid-column:1/-1;min-height:118px}.university-rail-note strong,.university-rail-note p{max-width:75%}.student-welcome{grid-template-columns:minmax(0,1fr) 220px}.top-search{width:230px}}
+@media(max-width:650px){
+ .content{padding:16px 14px 47px}.topbar{height:63px;padding:0 14px}.top-search{display:none}.page-stack{gap:18px}
+ .page-intro:not(.student-welcome){align-items:flex-start;flex-wrap:wrap}.page-intro h1{font-size:24px;line-height:1.3}.page-intro p{font-size:13px}
+ .student-welcome{grid-template-columns:minmax(0,1fr) 95px;align-items:end;padding:19px 17px 16px;min-height:232px;gap:6px;border-radius:17px}
+ .student-welcome:before{right:-105px;top:-90px;width:235px;height:235px}.student-welcome:after{display:none}
+ .welcome-kicker{font-size:9px;max-width:190px}.student-welcome h1{font-size:24px;line-height:1.24;max-width:265px}
+ .student-welcome p{font-size:12px;line-height:1.57;max-width:235px}
+ .welcome-actions{gap:7px;margin-top:13px}.welcome-primary{font-size:11px;gap:6px;padding:9px 10px;min-height:36px}.welcome-secondary{font-size:10px;min-height:31px}
+ .welcome-visual{min-height:0;align-self:center;height:100%;align-items:flex-end}.welcome-visual>img{height:145px;max-width:137px;margin-right:-14px;margin-bottom:11px}.welcome-date{top:-4px;right:-1px;white-space:nowrap;font-size:9px;padding:5px 6px}.welcome-mini-sticker{left:-10px;bottom:8px;font-size:9px;padding:6px 7px;white-space:nowrap}
+ .university-dashboard-layout,.university-dashboard-main{gap:17px}.editorial-feature{min-height:200px;grid-template-columns:minmax(0,1fr) 100px;border-radius:14px}
+ .editorial-feature-copy{padding:20px 15px}.editorial-feature h2{font-size:18px;line-height:1.35}.editorial-feature p{font-size:11px}
+ .editorial-feature-media{padding:7px}.editorial-feature-media img{max-height:135px}
+ .editorial-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.editorial-stats .stat-card{min-height:110px;padding:13px 11px}
+ .editorial-stats .stat-card strong{font-size:22px}.editorial-stats .stat-card div span{display:none}
+ .university-right-rail{grid-template-columns:1fr}.university-rail-note{grid-column:auto}
+ .dashboard-course-section .course-grid,.course-grid{grid-template-columns:1fr}
+ .course-cover{height:166px;min-height:166px}.course-card{border-radius:14px}
+ .catalogue-toolbar,.panel{padding:16px}.campus-catalog-intro{padding:18px 15px;min-height:125px}.campus-catalog-intro strong{font-size:16px}.campus-catalog-intro p{font-size:12px}.campus-catalog-intro img{max-width:80px}
+ .role-hero{padding:18px;min-height:0}.role-hero h2{font-size:19px}.role-hero img{max-width:120px}
+ .course-detail-hero{padding:22px 18px;border-radius:14px!important}.course-detail-hero h1{font-size:23px}.course-detail-content{max-width:100%}
+ .overview-mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.overview-mini-card{min-height:85px;padding:13px}
+ .auth-form-panel{padding:25px}.auth-form-wrap h2{font-size:27px}.asset-grid{gap:10px}
+}
+@media(max-width:390px){.student-welcome{grid-template-columns:minmax(0,1fr) 74px}.student-welcome h1{font-size:22px}.student-welcome p{font-size:11px}.welcome-visual>img{height:124px;margin-right:-13px}.welcome-mini-sticker{display:none}.editorial-feature{grid-template-columns:minmax(0,1fr) 82px}.editorial-feature h2{font-size:16px}.feature-action{font-size:10px}}
+@media(max-width:360px){.welcome-date{display:none}.welcome-kicker{max-width:100%}.welcome-visual>img{height:116px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}}

@@ -1,0 +1,583 @@
+[    4797ms] [WARNING] [PrimeUI] PrimeUI license is not configured. @ http://127.0.0.1:4200/@vite/client:367
+[    4818ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[    4988ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/favicon.ico:0
+[   34466ms] [ERROR] Failed to load animation data from URL: /assets/lottie/book-loading.lottie. AbortError: signal is aborted without reason @ http://127.0.0.1:4200/@vite/client:367
+[   34468ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   34471ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   66924ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   66925ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   85031ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   85032ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   85032ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   91964ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   91964ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[   91964ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  197981ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  197982ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  197982ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  382467ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  382467ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  382467ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  386811ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  386811ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  386811ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  388758ms] [WARNING] [PrimeUI] PrimeUI license is not configured. @ http://127.0.0.1:4200/@vite/client:367
+[  388771ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[  389024ms] [ERROR] Failed to load animation data from URL: /assets/lottie/book-loading.lottie. AbortError: signal is aborted without reason @ http://127.0.0.1:4200/@vite/client:367
+[  389025ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  389025ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  389025ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  398428ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  398428ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  398428ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[  669303ms] [WARNING] [PrimeUI] PrimeUI license is not configured. @ http://127.0.0.1:4200/@vite/client:367
+[  669317ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[  770801ms] [WARNING] [PrimeUI] PrimeUI license is not configured. @ http://127.0.0.1:4200/@vite/client:367
+[  770814ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[ 1217721ms] [WARNING] [PrimeUI] PrimeUI license is not configured. @ http://127.0.0.1:4200/@vite/client:367
+[ 1217744ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[ 1220470ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1220478ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1220478ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1234525ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=PVB8Qn5bjqY&ei=dFfqasT3JZLLmLAPwOr38Aw&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793767908&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=85D873271F5A0A658DCD4EFC1E2255474CDE82A3.136B8593C944EB1854683AF5C0B783DF63598604&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 1235441ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/favicon.ico:0
+[ 1235824ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=PVB8Qn5bjqY&ei=dFfqasT3JZLLmLAPwOr38Aw&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793767908&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=85D873271F5A0A658DCD4EFC1E2255474CDE82A3.136B8593C944EB1854683AF5C0B783DF63598604&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 1248655ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=tWXSI0qN_To&ei=glfqasGeNNa5mLAPzLjeyQs&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793767922&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=B2F49B8454F71A6835B84CE00A58C950C0267358.347E741DA2917A97718F3E01DCC9EC1B75343A3B&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 1250033ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=tWXSI0qN_To&ei=glfqasGeNNa5mLAPzLjeyQs&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793767922&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=B2F49B8454F71A6835B84CE00A58C950C0267358.347E741DA2917A97718F3E01DCC9EC1B75343A3B&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 1258122ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=rrWQ7s2hTFg&ei=jFfqao_iHKay8uMPsbDcSA&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793767932&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=0BCFF4D0401704CB782CE9D04ED45DEDBA9974AB.5888E777847C98BCAF34DA367DF10305FE5413F4&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 1259547ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[ 1259602ms] [ERROR] Failed to load animation data from URL: /assets/lottie/book-loading.lottie. AbortError: signal is aborted without reason @ http://127.0.0.1:4200/@vite/client:367
+[ 1259751ms] [WARNING] NG0913: An image with src http://127.0.0.1:4200/assets/illustrations/cover-python.svg is the Largest Contentful Paint (LCP) element but was given a "loading" value of "lazy", which can negatively impact application loading performance. This warning can be addressed by changing the loading value of the LCP image to "eager", or by using the NgOptimizedImage directive's prioritization utilities. For more information about addressing or disabling this warning, see https://v22.angular.dev/errors/NG0913. Find more at https://v22.angular.dev/errors/NG0913 @ http://127.0.0.1:4200/@vite/client:367
+[ 1296120ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1296129ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1296129ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1304982ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1304982ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1304982ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1320683ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1320683ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 1320683ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2055425ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2055426ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2055427ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2097296ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2097297ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2097297ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2168982ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2168994ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2168998ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2203370ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=PVB8Qn5bjqY&ei=PVvqatStLqPLmLAPq5vU-Qs&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793768877&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=23F1DC639D31DE96F3B1D82A2EC87904C3C4AAAE.38E1C3E82E4FA5175E9814E80B8926BDF43A6C28&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 2203864ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/favicon.ico:0
+[ 2204235ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.youtube-nocookie.com/api/timedtext?v=PVB8Qn5bjqY&ei=PVvqatStLqPLmLAPq5vU-Qs&caps=asr&opi=112496729&xoaf=5&xowf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1793768877&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=23F1DC639D31DE96F3B1D82A2EC87904C3C4AAAE.38E1C3E82E4FA5175E9814E80B8926BDF43A6C28&key=yt8&kind=asr&lang=fr&fmt=json3&xorb=2&xobt=3&xovt=3&cbrand=apple&cbr=Chrome&cbrver=156.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20261103.01.00&cplayer=UNIPLAYER&cos=Macintosh&cosver=10_15_7&cplatform=DESKTOP:0
+[ 2248682ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-python.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2248688ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2248688ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2327085ms] [ERROR] Failed to load animation data from URL: /assets/lottie/book-loading.lottie. AbortError: signal is aborted without reason @ http://127.0.0.1:4200/@vite/client:367
+[ 2327112ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-research.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2327112ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2327112ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2374179ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[ 2374182ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[ 2374182ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[ 2374182ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[ 2374183ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[ 2374183ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[ 2374187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[ 2374187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[ 2374188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[ 2374188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[ 2374188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[ 2374188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[ 2374190ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[ 2374190ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[ 2374191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[ 2374193ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[ 2374194ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[ 2374194ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[ 2374196ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dancing.svg:0
+[ 2374196ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[ 2374197ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[ 2374200ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading-side.svg:0
+[ 2374200ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/swinging.svg:0
+[ 2374201ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/plant.svg:0
+[ 2374201ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sleek.svg:0
+[ 2374202ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/bikini.svg:0
+[ 2374202ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/Doggie.svg:0
+[ 2374203ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/chilling.svg:0
+[ 2374204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/laying.svg:0
+[ 2374204ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/groovy.svg:0
+[ 2374205ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting-reading.svg:0
+[ 2374206ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/levitate.svg:0
+[ 2374206ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/petting.svg:0
+[ 2383272ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/notebook-dynamic-color.png:0
+[ 2383273ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/pencil-dynamic-color.png:0
+[ 2383275ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/computer-dynamic-color.png:0
+[ 2383276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calculator-dynamic-color.png:0
+[ 2383276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/chart-dynamic-color.png:0
+[ 2383276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/headphone-dynamic-color.png:0
+[ 2383278ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/trophy-dynamic-color.png:0
+[ 2383280ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/file-text-dynamic-color.png:0
+[ 2383280ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calender-dynamic-color.png:0
+[ 2383283ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/tick-dynamic-color.png:0
+[ 2383283ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/target-dynamic-color.png:0
+[ 2383283ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/lab-dynamic-color.png:0
+[ 2383284ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/bulb-dynamic-color.png:0
+[ 2383286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/rocket-dynamic-color.png:0
+[ 2383286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/video-camera-dynamic-color.png:0
+[ 2383286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/megaphone-dynamic-color.png:0
+[ 2390958ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-research.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2390958ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2390958ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2398502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[ 2398502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[ 2398504ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[ 2398505ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[ 2398512ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[ 2398512ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[ 2398512ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[ 2398512ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[ 2398514ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[ 2398515ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[ 2398519ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[ 2398520ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[ 2398520ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[ 2398520ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[ 2398521ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[ 2398521ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[ 2398524ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[ 2398525ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[ 2398539ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[ 2398540ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[ 2398540ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading-side.svg:0
+[ 2398540ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dancing.svg:0
+[ 2398543ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/swinging.svg:0
+[ 2398547ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/plant.svg:0
+[ 2398553ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sleek.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/bikini.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/Doggie.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/laying.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/groovy.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting-reading.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/chilling.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/levitate.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/petting.svg:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/notebook-dynamic-color.png:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/pencil-dynamic-color.png:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/computer-dynamic-color.png:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/headphone-dynamic-color.png:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/trophy-dynamic-color.png:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calender-dynamic-color.png:0
+[ 2398554ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calculator-dynamic-color.png:0
+[ 2400318ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/chart-dynamic-color.png:0
+[ 2400319ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/file-text-dynamic-color.png:0
+[ 2400320ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/tick-dynamic-color.png:0
+[ 2400321ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/target-dynamic-color.png:0
+[ 2400321ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/lab-dynamic-color.png:0
+[ 2400401ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/bulb-dynamic-color.png:0
+[ 2400402ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/video-camera-dynamic-color.png:0
+[ 2400403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/megaphone-dynamic-color.png:0
+[ 2400404ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/rocket-dynamic-color.png:0
+[ 2410132ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-research.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2410132ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 2410132ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[ 3287723ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4200/@vite/client:1089
+[ 3288874ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[32038837ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4200/@vite/client:1089
+[32039821ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[32039940ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4200/api/auth/me:0
+[70890430ms] [ERROR] Failed to load animation data from URL: /assets/lottie/book-loading.lottie. AbortError: signal is aborted without reason @ http://127.0.0.1:4200/@vite/client:367
+[70890522ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-research.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[70890523ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-sql.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[70890523ms] [WARNING] NG02952: The NgOptimizedImage directive (activated on an <img> element with the `ngSrc="/assets/illustrations/cover-web.svg"`) has detected that the aspect ratio of the image does not match the aspect ratio indicated by the width and height attributes. 
+Intrinsic image size: 480w x 320h (aspect-ratio: 1.50). 
+Supplied width and height attributes: 72w x 58h (aspect-ratio: 1.24). 
+To fix this, update the width and height attributes. @ http://127.0.0.1:4200/@vite/client:367
+[70894722ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[70894724ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[70894724ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[70894727ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[70894727ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[70894728ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[70894746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[70894747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[70894747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[70894747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[70894751ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[70894751ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[70899917ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading-side.svg:0
+[70899917ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dancing.svg:0
+[70899917ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/swinging.svg:0
+[70899917ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/plant.svg:0
+[70899918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sleek.svg:0
+[70899918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/Doggie.svg:0
+[70899918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/bikini.svg:0
+[70899918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/laying.svg:0
+[70899918ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/groovy.svg:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting-reading.svg:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/chilling.svg:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/levitate.svg:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/petting.svg:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/notebook-dynamic-color.png:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/pencil-dynamic-color.png:0
+[70899919ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/computer-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/headphone-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/trophy-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calender-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calculator-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/chart-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/file-text-dynamic-color.png:0
+[70899920ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/tick-dynamic-color.png:0
+[70899921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/target-dynamic-color.png:0
+[70899921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/lab-dynamic-color.png:0
+[70899922ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/bulb-dynamic-color.png:0
+[70899923ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/video-camera-dynamic-color.png:0
+[70899923ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/megaphone-dynamic-color.png:0
+[70899927ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/rocket-dynamic-color.png:0
+[70899928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[70899928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[70899928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[70899934ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[70899935ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[70899957ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[70899958ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[70899958ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[70899963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[70899964ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[70899964ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[70899964ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[76702414ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4200/@vite/client:1089
+[76704430ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[76704770ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[76704772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[76704772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[76704772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[76704772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[76704773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[76704773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[76704773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[76704774ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[76704777ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[76704778ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[76704778ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[76704778ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[76704778ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[76704787ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[76704788ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[76704803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[76704803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[76704803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[76704803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[76704803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading-side.svg:0
+[76704803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dancing.svg:0
+[76704808ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/swinging.svg:0
+[76704808ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/plant.svg:0
+[76704815ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sleek.svg:0
+[76704816ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/bikini.svg:0
+[76704816ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/Doggie.svg:0
+[76704821ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/chilling.svg:0
+[76704821ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/levitate.svg:0
+[76704821ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/laying.svg:0
+[76704821ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/groovy.svg:0
+[76704822ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting-reading.svg:0
+[76704822ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/petting.svg:0
+[76704822ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/notebook-dynamic-color.png:0
+[76704822ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/pencil-dynamic-color.png:0
+[76704823ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/computer-dynamic-color.png:0
+[76704826ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/headphone-dynamic-color.png:0
+[76704826ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/trophy-dynamic-color.png:0
+[76704827ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calender-dynamic-color.png:0
+[76704827ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calculator-dynamic-color.png:0
+[76704836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/chart-dynamic-color.png:0
+[76704836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/file-text-dynamic-color.png:0
+[76704837ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/tick-dynamic-color.png:0
+[76704837ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/target-dynamic-color.png:0
+[76704838ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/lab-dynamic-color.png:0
+[76704839ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/bulb-dynamic-color.png:0
+[76704839ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/video-camera-dynamic-color.png:0
+[76704840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/megaphone-dynamic-color.png:0
+[76704841ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/rocket-dynamic-color.png:0
+[76778902ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4200/@vite/client:1089
+[76779784ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[76780298ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[76780301ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[76780301ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[76780301ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[76780303ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[76780303ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[76780304ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[76780307ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[76780307ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[76780308ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[76780308ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[76780308ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[76780315ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[76780316ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[76780316ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[76780316ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[76780316ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[76780327ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[76780328ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[76780328ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[76780328ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading-side.svg:0
+[76780332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dancing.svg:0
+[76780332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/bikini.svg:0
+[76780332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sleek.svg:0
+[76780332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/swinging.svg:0
+[76780332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/plant.svg:0
+[76780332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/Doggie.svg:0
+[76780333ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/laying.svg:0
+[76780339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/groovy.svg:0
+[76780339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting-reading.svg:0
+[76780339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/chilling.svg:0
+[76780339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/levitate.svg:0
+[76780339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/petting.svg:0
+[76780340ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/notebook-dynamic-color.png:0
+[76780340ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/pencil-dynamic-color.png:0
+[88422484ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4200/@vite/client:1089
+[88426734ms] [LOG] Angular is running in development mode. @ http://127.0.0.1:4200/@fs/Users/admin/Downloads/campuslearn/frontend/.angular/cache/22.2.5/campuslearn/vite/deps/core-DdaWCEkT.js?v=abe5106e:9384
+[88426992ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/computer-dynamic-color.png:0
+[88426997ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/headphone-dynamic-color.png:0
+[88426997ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calender-dynamic-color.png:0
+[88426997ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/calculator-dynamic-color.png:0
+[88426997ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/chart-dynamic-color.png:0
+[88426998ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/trophy-dynamic-color.png:0
+[88426998ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/file-text-dynamic-color.png:0
+[88426998ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/tick-dynamic-color.png:0
+[88426998ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/target-dynamic-color.png:0
+[88426999ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/lab-dynamic-color.png:0
+[88426999ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/bulb-dynamic-color.png:0
+[88426999ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/video-camera-dynamic-color.png:0
+[88426999ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/megaphone-dynamic-color.png:0
+[88426999ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/rocket-dynamic-color.png:0
+[88426999ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:4200/api/auth/me:0
+[88427009ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/unboxing.svg:0
+[88427011ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/selfie.svg:0
+[88427013ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sprinting.svg:0
+[88427014ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/coffee.svg:0
+[88427014ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dog-jump.svg:0
+[88427016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/loving.svg:0
+[88427057ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/rolling.svg:0
+[88427058ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/running.svg:0
+[88427058ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/clumsy.svg:0
+[88427058ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/float.svg:0
+[88427058ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/meditating.svg:0
+[88427058ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading.svg:0
+[88427059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/zombieing.svg:0
+[88427059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ballet.svg:0
+[88427059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/moshing.svg:0
+[88427059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting.svg:0
+[88427059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/strolling.svg:0
+[88427059ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/roller-skating.svg:0
+[88427060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/ice-cream.svg:0
+[88427060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/jumping.svg:0
+[88427060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/reading-side.svg:0
+[88427060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/dancing.svg:0
+[88427060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/swinging.svg:0
+[88427061ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/plant.svg:0
+[88427061ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sleek.svg:0
+[88427061ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/bikini.svg:0
+[88427062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/Doggie.svg:0
+[88427062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/laying.svg:0
+[88427062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/groovy.svg:0
+[88427062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/sitting-reading.svg:0
+[88427062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/chilling.svg:0
+[88427062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/levitate.svg:0
+[88427063ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/open-doodles/petting.svg:0
+[88427063ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/notebook-dynamic-color.png:0
+[88427063ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4200/assets/illustrations/3d/cc0-3dicons/pencil-dynamic-color.png:0

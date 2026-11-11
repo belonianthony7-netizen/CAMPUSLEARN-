@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: campuslearn
+      POSTGRES_USER: campuslearn
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-campuslearn_local_only}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U campuslearn -d campuslearn"]
+      interval: 5s
+      retries: 15
+  api:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql+psycopg://campuslearn:${POSTGRES_PASSWORD:-campuslearn_local_only}@db:5432/campuslearn
+      JWT_SECRET: ${JWT_SECRET:?You must set JWT_SECRET in the root .env}
+      CORS_ORIGINS: http://localhost:8080
+      APP_ENV: production
+      UPLOAD_DIRECTORY: /srv/data/uploads
+    volumes:
+      - uploads_data:/srv/data/uploads
+    depends_on:
+      db: {condition: service_healthy}
+  web:
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on: [api]
+volumes:
+  postgres_data:
+  uploads_data:

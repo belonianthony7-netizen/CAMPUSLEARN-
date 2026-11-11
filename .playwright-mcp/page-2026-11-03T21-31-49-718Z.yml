@@ -1,0 +1,178 @@
+- generic [ref=e68]:
+  - link "Aller au contenu" [ref=e69] [cursor=pointer]:
+    - /url: "#contenu"
+  - generic [ref=e70]:
+    - complementary "Navigation principale" [ref=e71]:
+      - link "campuslearn PLATEFORME UNIVERSITAIRE" [ref=e72] [cursor=pointer]:
+        - /url: /accueil
+        - generic [ref=e79]:
+          - text: campuslearn
+          - generic [ref=e80]: PLATEFORME UNIVERSITAIRE
+      - generic [ref=e83]:
+        - strong [ref=e84]: Mon coin d’étude
+        - generic [ref=e85]: Tout au même endroit
+      - generic [ref=e89]: ESPACE PERSONNEL
+      - navigation [ref=e90]:
+        - link "Tableau de bord" [ref=e91] [cursor=pointer]:
+          - /url: /accueil
+        - link "Explorer les cours" [ref=e97] [cursor=pointer]:
+          - /url: /cours
+        - link "Mes cours" [ref=e103] [cursor=pointer]:
+          - /url: /mes-cours
+        - link "Notifications" [ref=e108] [cursor=pointer]:
+          - /url: /notifications
+      - generic [ref=e114]:
+        - generic [ref=e115]: UN PETIT RAPPEL
+        - paragraph [ref=e116]: Une leçon à la fois. Tu avances à ton rythme.
+        - link "Retrouver mes cours" [ref=e117] [cursor=pointer]:
+          - /url: /mes-cours
+      - generic [ref=e123]:
+        - generic [ref=e124]: AM
+        - generic [ref=e125]:
+          - generic [ref=e126]: Alex Mwamba
+          - generic [ref=e127]: Étudiant
+        - button "Se déconnecter" [ref=e128] [cursor=pointer]
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - generic [ref=e137]: CampusLearn
+          - strong [ref=e141]: Tableau de bord
+        - generic [ref=e142]:
+          - search [ref=e143]:
+            - textbox "Rechercher des cours" [ref=e148]:
+              - /placeholder: Rechercher un cours...
+            - generic [ref=e149]: Entrée
+          - link "Ouvrir les notifications" [ref=e150] [cursor=pointer]:
+            - /url: /notifications
+          - generic [ref=e156]: AM
+      - main [ref=e158]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: TON COIN POUR APPRENDRE
+              - heading "Bonsoir, Alex" [level=1] [ref=e165]:
+                - text: Bonsoir, Alex
+                - generic [aria-hidden] [ref=e166]: 👋
+              - paragraph [ref=e167]: Ton espace pour étudier tranquillement, reprendre un cours et voir le chemin parcouru.
+              - generic [ref=e168]:
+                - link "Retrouver mes cours" [ref=e169] [cursor=pointer]:
+                  - /url: /mes-cours
+                - link "Explorer les cours" [ref=e177] [cursor=pointer]:
+                  - /url: /cours
+            - generic [ref=e181]:
+              - generic [ref=e182]: mardi 3 novembre
+              - generic [ref=e186]: À ton rythme
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - region [ref=e192]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: ON CONTINUE ?
+                  - heading "On reprend Bases de données relationnelles ?" [level=2] [ref=e195]
+                  - paragraph [ref=e196]: Ton cours t'attend là où tu l'avais laissé.
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: Tu en es ici
+                    - strong [ref=e199]: 0 %
+                  - link "Continuer ma leçon" [ref=e201] [cursor=pointer]:
+                    - /url: /cours/01cfdbdf-0a7d-4a22-9c58-1b54340770ec
+              - region [ref=e207]:
+                - generic [ref=e209]:
+                  - heading "Tes repères" [level=2] [ref=e210]
+                  - paragraph [ref=e211]: Des petites avancées qui finissent par compter.
+                - generic [ref=e212]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: Cours suivis
+                    - strong [ref=e220]: "2"
+                    - generic [ref=e221]: Dans votre bibliothèque
+                  - generic [ref=e228]:
+                    - generic [ref=e229]: Cours terminés
+                    - strong [ref=e230]: "0"
+                    - generic [ref=e231]: Leçons et progression
+                  - generic [ref=e239]:
+                    - generic [ref=e240]: Quiz réalisés
+                    - strong [ref=e241]: "0"
+                    - generic [ref=e242]: Évaluations effectuées
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: Moyenne aux quiz
+                    - strong [ref=e250]: 0 %
+                    - generic [ref=e251]: Sur les quiz soumis
+              - region [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]:
+                    - heading "Les cours qui t’attendent" [level=2] [ref=e255]
+                    - paragraph [ref=e256]: Reprends quand tu veux, sans perdre le fil.
+                  - link "Voir les cours" [ref=e257] [cursor=pointer]:
+                    - /url: /mes-cours
+                - generic [ref=e261]:
+                  - 'link "Consulter le cours : Bases de données relationnelles" [ref=e263] [cursor=pointer]':
+                    - /url: /cours/01cfdbdf-0a7d-4a22-9c58-1b54340770ec
+                    - generic [ref=e264]: Intermédiaire
+                    - generic [ref=e267]:
+                      - generic [ref=e268]:
+                        - generic [ref=e269]: Informatique
+                        - generic [ref=e270]: Inscrit
+                      - heading "Bases de données relationnelles" [level=3] [ref=e274]
+                      - paragraph [ref=e275]: Marie Kabeya
+                      - generic [ref=e280]:
+                        - generic [ref=e281]: 14 h
+                        - generic [ref=e286]: 3 leçons
+                      - generic [ref=e289]:
+                        - generic [ref=e290]: Progression
+                        - strong [ref=e291]: 0 %
+                      - progressbar [ref=e292]
+                      - generic [ref=e293]: Reprendre ma leçon
+                  - 'link "Consulter le cours : Introduction à la programmation Python" [ref=e299] [cursor=pointer]':
+                    - /url: /cours/db6ee725-500d-4bbc-a283-dbfd7519a4a2
+                    - generic [ref=e300]: Débutant
+                    - generic [ref=e303]:
+                      - generic [ref=e304]:
+                        - generic [ref=e305]: Informatique
+                        - generic [ref=e306]: Inscrit
+                      - heading "Introduction à la programmation Python" [level=3] [ref=e310]
+                      - paragraph [ref=e311]: Marie Kabeya
+                      - generic [ref=e316]:
+                        - generic [ref=e317]: 18 h
+                        - generic [ref=e322]: 3 leçons
+                      - generic [ref=e325]:
+                        - generic [ref=e326]: Progression
+                        - strong [ref=e327]: 0 %
+                      - progressbar [ref=e328]
+                      - generic [ref=e329]: Reprendre ma leçon
+            - complementary "Accès rapide" [ref=e334]:
+              - generic [ref=e335]:
+                - heading "À portée de main" [level=2] [ref=e337]
+                - link "Catalogue Parcourir les cours disponibles" [ref=e342] [cursor=pointer]:
+                  - /url: /cours
+                  - generic [ref=e347]:
+                    - strong [ref=e348]: Catalogue
+                    - generic [ref=e349]: Parcourir les cours disponibles
+                - link "Mes cours Reprendre mon apprentissage" [ref=e353] [cursor=pointer]:
+                  - /url: /mes-cours
+                  - generic [ref=e359]:
+                    - strong [ref=e360]: Mes cours
+                    - generic [ref=e361]: Reprendre mon apprentissage
+                - link "Notifications Voir les nouvelles annonces" [ref=e365] [cursor=pointer]:
+                  - /url: /notifications
+                  - generic [ref=e371]:
+                    - strong [ref=e372]: Notifications
+                    - generic [ref=e373]: Voir les nouvelles annonces
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - heading "Derniers cours" [level=2] [ref=e379]
+                  - link "Tout voir" [ref=e380] [cursor=pointer]:
+                    - /url: /mes-cours
+                - link "Bases de données relationnelles 0 % de progression" [ref=e381] [cursor=pointer]:
+                  - /url: /cours/01cfdbdf-0a7d-4a22-9c58-1b54340770ec
+                  - generic [ref=e382]:
+                    - strong [ref=e383]: Bases de données relationnelles
+                    - generic [ref=e384]: 0 % de progression
+                - link "Introduction à la programmation Python 0 % de progression" [ref=e389] [cursor=pointer]:
+                  - /url: /cours/db6ee725-500d-4bbc-a283-dbfd7519a4a2
+                  - generic [ref=e390]:
+                    - strong [ref=e391]: Introduction à la programmation Python
+                    - generic [ref=e392]: 0 % de progression
+              - generic [ref=e397]:
+                - strong [ref=e402]: Un peu chaque jour, c'est déjà beaucoup.
+                - paragraph [ref=e403]: Commence avec une leçon. Tu pourras reprendre plus tard.
+      - generic [ref=e404]:
+        - generic [ref=e405]: © 2026 CampusLearn
+        - generic [ref=e406]: Un espace pour apprendre, partager et progresser.
