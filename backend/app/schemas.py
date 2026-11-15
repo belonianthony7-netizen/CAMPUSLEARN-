@@ -1,7 +1,20 @@
 from .illustrations import cover_allowed
 from .youtube import canonical_youtube_url
 from datetime import datetime
+import re
+from urllib.parse import urlparse
 from pydantic import BaseModel, ConfigDict, Field, field_validator
+
+
+def valid_material_url(value: str | None) -> str | None:
+    if not value:
+        return value
+    if re.fullmatch(r"/api/files/[0-9a-f]{36}", value):
+        return value
+    parsed = urlparse(value)
+    if parsed.scheme == "https" and parsed.netloc:
+        return value
+    raise ValueError("Utilisez une URL HTTPS ou un fichier interne de la plateforme")
 
 class Model(BaseModel):
     model_config = ConfigDict(from_attributes=True)
@@ -76,9 +89,7 @@ class LessonInput(Model):
     @field_validator("material_url")
     @classmethod
     def validate_material_url(cls, url: str | None) -> str | None:
-        if url and not (url.startswith("https://") or url.startswith("http://") or url.startswith("/api/files/")):
-            raise ValueError("Utilisez une URL HTTP(S) ou un fichier interne de la plateforme")
-        return url
+        return valid_material_url(url)
 
 
 class LessonPatch(Model):
@@ -96,9 +107,7 @@ class LessonPatch(Model):
     @field_validator("material_url")
     @classmethod
     def validate_material_url(cls, value: str | None) -> str | None:
-        if value and not (value.startswith("https://") or value.startswith("http://") or value.startswith("/api/files/")):
-            raise ValueError("Utilisez une URL HTTP(S) ou un fichier interne de la plateforme")
-        return value
+        return valid_material_url(value)
 
 class QuestionInput(Model):
     prompt: str = Field(min_length=3)

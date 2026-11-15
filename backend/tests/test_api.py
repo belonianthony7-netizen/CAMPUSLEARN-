@@ -152,6 +152,28 @@ def test_private_material_upload(client):
     assert invalid.status_code == 415
 
 
+def test_lesson_material_urls_require_https_or_internal_file_ids(client):
+    teacher = headers(client, 'prof@test.cd', 'TeacherPass123!')
+    cid = create_course(client, teacher)
+    payload = {'title': 'Support de cours', 'content': 'Lecture recommandée'}
+
+    external = client.post(f'/api/courses/{cid}/lessons', headers=teacher, json={
+        **payload, 'material_url': 'https://cdn.example.edu/support.pdf',
+    })
+    assert external.status_code == 201, external.text
+
+    for unsafe_url in [
+        'http://cdn.example.edu/support.pdf',
+        'javascript:alert(1)',
+        '/api/files/not-a-material-id',
+        '/api/files/../admin/users',
+    ]:
+        response = client.post(f'/api/courses/{cid}/lessons', headers=teacher, json={
+            **payload, 'material_url': unsafe_url,
+        })
+        assert response.status_code == 422, (unsafe_url, response.text)
+
+
 def test_course_cover_selection_and_update(client):
     teacher = headers(client, 'prof@test.cd', 'TeacherPass123!')
     student = register_student(client)
