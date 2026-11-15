@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - mugisho-mulume-jeremie
+      - belonianthony7-netizen
       - 'feature/**'
   pull_request:
     branches:
@@ -61,3 +62,7 @@ jobs:
           npm run test:assets
           npm run test:icons
           npm run test:lotties
+
+      - name: Build the production application
+        working-directory: ./frontend
+        run: npm run build
