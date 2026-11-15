@@ -32,7 +32,25 @@ async def lifespan(_app: FastAPI):
     Path(settings.upload_directory).mkdir(parents=True, exist_ok=True)
     yield
 
-app = FastAPI(title="CampusLearn API", version="1.0.0", description="Plateforme d'apprentissage universitaire", lifespan=lifespan)
+tags_metadata = [
+    {"name": "Auth", "description": "Authentification et gestion des sessions JWT"},
+    {"name": "Courses", "description": "Gestion des cours universitaires et inscriptions"},
+    {"name": "Lessons", "description": "Modules pédagogiques, leçons et suivi de progression"},
+    {"name": "Quizzes", "description": "Évaluations, QCM et calcul des résultats"},
+    {"name": "Assignments", "description": "Devoirs à rendre, notation et retours"},
+    {"name": "Community", "description": "Forum d'échange et notifications"},
+    {"name": "Teacher", "description": "Tableau de bord et suivi enseignant"},
+    {"name": "Admin", "description": "Administration des comptes utilisateurs"},
+    {"name": "System", "description": "Monitoring et statut de l'infrastructure"},
+]
+
+app = FastAPI(
+    title="CampusLearn API",
+    version="1.0.0",
+    description="Plateforme d'apprentissage universitaire moderne",
+    openapi_tags=tags_metadata,
+    lifespan=lifespan,
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[origin.strip() for origin in settings.cors_origins.split(",") if origin.strip()],
@@ -48,9 +66,16 @@ Student = Annotated[User, Depends(require_role("student"))]
 Admin = Annotated[User, Depends(require_role("admin"))]
 
 
-@app.get("/health")
+@app.get("/health", tags=["System"], summary="État de l'API")
+@router.get("/health", tags=["System"], summary="État de l'API (préfixe /api)")
 def health():
-    return {"status": "ok", "service": "campuslearn-api"}
+    return {
+        "status": "ok",
+        "service": "campuslearn-api",
+        "version": "1.0.0",
+        "environment": settings.app_env,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    }
 
 
 def get_course(db: Session, course_id: str) -> Course:

@@ -55,6 +55,19 @@ def create_course(client, teacher):
     return r.json()['id']
 
 
+def test_health_endpoints(client):
+    res_root = client.get('/health')
+    assert res_root.status_code == 200
+    data_root = res_root.json()
+    assert data_root['status'] == 'ok'
+    assert data_root['service'] == 'campuslearn-api'
+    assert 'timestamp' in data_root
+
+    res_api = client.get('/api/health')
+    assert res_api.status_code == 200
+    assert res_api.json()['status'] == 'ok'
+
+
 def test_auth_roles_and_duplicate(client):
     student = register_student(client)
     assert client.get('/api/auth/me',headers=student).json()['role'] == 'student'
