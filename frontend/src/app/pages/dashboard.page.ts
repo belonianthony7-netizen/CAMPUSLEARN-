@@ -8,9 +8,8 @@ import { CourseCardComponent } from '../shared/course-card.component';
 import { coverFor } from '../core/course-artwork';
 import { Dashboard } from '../core/models';
 import { LearningLottieComponent } from '../shared/learning-lottie.component';
-import { CampusIllustrationComponent } from '../shared/campus-illustration.component';
 
-@Component({selector:'app-dashboard',standalone:true,imports:[IconComponent,RouterLink,CourseCardComponent,NgOptimizedImage,LearningLottieComponent,CampusIllustrationComponent],template:`
+@Component({selector:'app-dashboard',standalone:true,imports:[IconComponent,RouterLink,CourseCardComponent,NgOptimizedImage,LearningLottieComponent],template:`
 <div class="page-stack dashboard-page editorial-dashboard">
   <header class="page-intro dashboard-intro student-welcome">
     <div class="welcome-copy">

@@ -1,7 +1,7 @@
 import { IconComponent } from '../shared/icon.component';
 import { Component, inject, OnInit, signal, DestroyRef } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { Subject, debounceTime, switchMap, catchError, of } from 'rxjs';
 import { ApiService } from '../core/api.service';
@@ -9,7 +9,7 @@ import { Course } from '../core/models';
 import { CourseCardComponent } from '../shared/course-card.component';
 import { LearningLottieComponent } from '../shared/learning-lottie.component';
 
-@Component({selector:'app-courses',standalone:true,imports:[IconComponent,FormsModule,RouterLink,CourseCardComponent,LearningLottieComponent],template:`
+@Component({selector:'app-courses',standalone:true,imports:[IconComponent,FormsModule,CourseCardComponent,LearningLottieComponent],template:`
 <div class="page-stack catalogue-page editorial-catalogue">
   <header class="page-intro"><div><span class="eyebrow">{{mine()?'TON PARCOURS':'TON CAMPUS · LES MATIÈRES'}}</span><h1>{{mine()?'Mes cours, à mon rythme':'Qu’as-tu envie d’apprendre ?'}}</h1><p>{{mine()?'Tout ce que tu as commencé, au même endroit. Reprends quand tu veux.':'Trouve une matière qui t’intéresse et avance leçon après leçon.'}}</p></div></header>
   @if(!mine()){<div class="campus-catalog-intro"><div><span class="eyebrow">UNE MATIÈRE À LA FOIS</span><strong>De la curiosité aux premières leçons.</strong><p>Informatique, langues, sciences… À toi de choisir par où commencer.</p></div><img src="/assets/illustrations/3d/cours-en-ligne.png" width="160" height="160" loading="lazy" alt=""/></div>}
