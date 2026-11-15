@@ -35,4 +35,21 @@ export class ApiService {
   updateUser(id:string,role:string,is_active:boolean) {return this.http.patch<User>(`/api/admin/users/${id}`,{role,is_active});}
   students(id:string) {return this.http.get<CourseStudent[]>(`/api/teacher/courses/${id}/students`);}
   quizAttempts(id:string) {return this.http.get<CourseQuizAttempt[]>(`/api/teacher/courses/${id}/quiz-attempts`);}
+
+  health() {
+    return this.http.get<{ status: string; service: string; version: string; environment: string; timestamp: string }>('/api/health');
+  }
+
+  formatErrorMessage(error: unknown): string {
+    if (typeof error === 'string') return error;
+    if (!error || typeof error !== 'object') return 'Une erreur inattendue est survenue.';
+    const httpErr = error as { error?: { detail?: string | Array<{ msg: string }> }; message?: string };
+    if (httpErr.error?.detail) {
+      if (typeof httpErr.error.detail === 'string') return httpErr.error.detail;
+      if (Array.isArray(httpErr.error.detail)) {
+        return httpErr.error.detail.map(d => d.msg).join(', ');
+      }
+    }
+    return httpErr.message || 'Erreur de communication avec le serveur.';
+  }
 }
