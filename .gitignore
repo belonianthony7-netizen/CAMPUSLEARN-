@@ -7,5 +7,21 @@ __pycache__/
 *.db
 *.sqlite
 .env
+.env.local
+.env.*.local
 .venv/
 .DS_Store
+Thumbs.db
+
+# Logs and testing traces
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.playwright-mcp/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
