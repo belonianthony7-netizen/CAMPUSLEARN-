@@ -28,8 +28,8 @@ def stable_id(key: str) -> str:
 
 
 def load_catalogue() -> list[dict]:
-    sources = {s["video_id"]: s for s in json.loads((DATA_DIRECTORY / "catalogue_sources.json").read_text())}
-    catalogue = json.loads((DATA_DIRECTORY / "catalogue_fr.json").read_text())
+    sources = {s["video_id"]: s for s in json.loads((DATA_DIRECTORY / "catalogue_sources.json").read_text(encoding="utf-8"))}
+    catalogue = json.loads((DATA_DIRECTORY / "catalogue_fr.json").read_text(encoding="utf-8"))
     for course in catalogue:
         CourseInput.model_validate({k: v for k, v in course.items() if k in CourseInput.model_fields})
         QuizInput.model_validate(course["quiz"])
